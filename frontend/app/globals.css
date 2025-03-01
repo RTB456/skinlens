@@ -1,0 +1,112 @@
+/* .menu-container 
+{
+  display: flex;
+  align-items: flex-start;
+  justify-content:space-between;
+
+}
+  
+  .menu-button {
+    background-color: transparent;
+    color: blue;
+    font-size: x-large;
+    border: none;
+    cursor: pointer;
+  }
+
+
+  .menu-button-left {
+   align-self: flex-start;
+  }
+
+
+  .menu-button-left a{
+    color: blue;
+    text-decoration: none;
+  }
+
+  .menu-button-right 
+  {
+    align-self: flex-end;
+    justify-self: flex-end;
+  }
+
+  
+  .menu {
+    background-color: blue;
+    border: 1px solid #fff;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  
+
+
+  .menu a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+  }
+
+  
+  .menu a:hover {
+    background-color: blue;
+  }
+   */
+   .menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+  
+  .menu-button {
+    background-color: transparent;
+    color:#84ACA9;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+  }
+  
+  .menu a {
+    color: #84ACA9;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  .menu a:visited
+  {
+    color: #84ACA9;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    background-color: #84ACA9;
+    text-decoration: none;
+  }
+  
+  .menu-button-left a:visited{
+    color: #84ACA9;
+    text-decoration: none;
+  }
+
+  .menu-button-left {
+    align-self: flex-start;
+   }
+ 
+ 
+   .menu-button-left a{
+     color: #84ACA9;
+     text-decoration: none;
+   }
+ 
